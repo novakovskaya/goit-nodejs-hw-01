@@ -5,8 +5,7 @@
   https://monosnap.com/file/rbSmpEiyXj18I0uGyFEFnabMdL03dp
 
 - Add contact
-  https://monosnap.com/file/OyRQOg9JWG0AcryDnHIQQbjqnZjgE6
-  https://monosnap.com/file/cD28fWExx5vl0fWsG3DkqRFS5G4x10
+  https://monosnap.com/file/b1rojdhx8lRVGZiCGEi70FD1vpfiaj
 
 - Remove contact
   https://monosnap.com/file/ZLIEQn4TjnBxkhqARKq7bGfVLYZbG4
