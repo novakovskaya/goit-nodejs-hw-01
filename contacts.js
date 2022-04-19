@@ -5,10 +5,12 @@ const { v4 } = require('uuid');
 const contactsPath = path.join(__dirname, 'db', 'contacts.json');
 
 const listContacts = async () => {
-  const data = await fs.readFile(contactsPath);
-  const contacts = JSON.parse(data);
-
-  return contacts;
+  try {
+    const data = await fs.readFile(contactsPath);
+    return JSON.parse(data);
+  } catch (error) {
+    throw error;
+  }
 };
 
 const getContactById = async contactId => {
@@ -27,7 +29,6 @@ const addContact = async (name, email, phone) => {
 
   const newContact = { id: v4(), name, email, phone };
   allContacts.push(newContact);
-
   await fs.writeFile(contactsPath, JSON.stringify(allContacts));
 
   return newContact;
